@@ -52,6 +52,7 @@ class CourseInstanceDetailView(generics.RetrieveDestroyAPIView):
         serializer = self.get_serializer(instance)
         return Response(serializer.data)
 
+# Retrieve all instances
 class AllCourseInstanceListView(generics.ListAPIView):
     queryset = CourseInstance.objects.all()
     serializer_class = CourseInstanceSerializer
