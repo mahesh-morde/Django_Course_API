@@ -33,7 +33,7 @@ This repository contains the backend application for managing courses and course
 
    ```bash
    git clone https://github.com/mahesh-morde/Django_Course_API
-   cd courses_api
+   cd Django_Course_API
    docker compose up
 
 ### Setup and Installation
