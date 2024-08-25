@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    image: maheshmorde/django-backend:v1.0
+    image: maheshmorde/django-backend:v1.1.4
     container_name: django-backend
     ports:
       - "8000:8000"
@@ -15,7 +15,7 @@ services:
       - my-network
 
   frontend:
-    image: maheshmorde/angular-frontend:v1.1
+    image: maheshmorde/angular-frontend:v1.2.8
     container_name: angular-frontend
     ports:
       - "4200:80"
