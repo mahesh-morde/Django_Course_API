@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  backend:
+    image: maheshmorde/django-backend:v1.0
+    container_name: django-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - /courses_api
+    environment:
+      - DJANGO_SETTINGS_MODULE=courses_api.settings
+    command: python manage.py runserver 0.0.0.0:8000
+    networks:
+      - my-network
+
+  frontend:
+    image: maheshmorde/angular-frontend:v1.1
+    container_name: angular-frontend
+    ports:
+      - "4200:80"
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
