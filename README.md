@@ -31,10 +31,13 @@ This repository contains the backend application for managing courses and course
 
 1. **Clone the Repository**
 
+  Crrent repo contains only backEnd application for frontEnd [Please visit here](https://github.com/mahesh-morde/Angular-Courses-Frontend).
+
    ```bash
    git clone https://github.com/mahesh-morde/Django_Course_API
    cd Django_Course_API
    docker compose up
 
-### Setup and Installation
-Crrent repo is only for backEnd for frontEnd [Please visit here](https://github.com/mahesh-morde/Angular-Courses-Frontend).
+2. **Kindly visit below url to review working application**
+  
+  http://localhost:4200/
