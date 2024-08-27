@@ -1,6 +1,6 @@
 # Courses API - Backend Application
 
-This repository contains the backend application for managing courses and course instances. It is built using Django and Django REST Framework.
+This repository contains the backend application for managing courses and course instances. It is built using Django and Django REST Framework. For frontEnd [Please visit here](https://github.com/mahesh-morde/Angular-Courses-Frontend).
 
 ## Features
 
@@ -30,8 +30,6 @@ This repository contains the backend application for managing courses and course
 ## Setup and Installation
 
 1. **Clone the Repository**
-
-  Crrent repo contains only backEnd application for frontEnd [Please visit here](https://github.com/mahesh-morde/Angular-Courses-Frontend).
 
    ```bash
    git clone https://github.com/mahesh-morde/Django_Course_API
