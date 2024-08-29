@@ -4,7 +4,8 @@ This repository contains the backend application for managing courses and course
 
 ## Experience the Live Application
 
-To experience the live application, please visit [this link](https://whimsical-muffin-b51377.netlify.app/instances).
+To experience the live application, please visit [this link](https://whimsical-muffin-b51377.netlify.app/instances). (Kindly wait for a minute to load the initial components, I'll may take 2-3 minutes as i'm using free hosting plateforms).
+
 
 ## Features
 
